@@ -1,0 +1,333 @@
+.body{
+      display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  min-height: 100vh;         /* Full viewport height */
+   background-image: url(Screenshot_21-8-2025_82845_127.0.0.1.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.ul{
+    display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 50px;
+   color: white;
+   text-decoration: none;  
+   font-size: 1.2rem;
+   background-color: black; 
+   padding: 20px 40px;
+   border-radius: 12px;
+}
+
+.audio{
+    width: 350px;
+    margin: 30px auto 0 auto;
+    display: block;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    outline: none;
+    padding: 8px 0;
+}
+
+.big-text {
+  font-size: 3rem;    /* You can increase this value for bigger text */
+  font-weight: bold;  /* Optional: makes text bold */
+  color: white;       /* Optional: change text color */
+  text-align: center; /* Optional: center the text */
+  justify-content: center;
+}
+
+/* ...existing code... */
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+  /* margin-top: 500px;  Remove or comment out this line */
+  color: white;
+  text-decoration: none;  
+  font-size: 1.2rem;
+  background-color: black; 
+  padding: 20px 40px;
+  border-radius: 12px;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}/* ...existing code... */
+
+.bodys{
+      display: flex;
+  justify-content: center;   /* Center horizontally */      
+  min-height: 100vh;         /* Full viewport height */
+   background-color : palevioletred;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center
+}
+
+.uls{
+    display: flex;
+   list-style: none;
+   gap: 50px;
+   color: white;
+   text-decoration: none;  
+   font-size: 1.2rem;
+   background-color: black; 
+   padding: 20px 40px;
+   border-radius: 1px;
+}
+
+.big-text {
+  font-size: 3rem;    /* You can increase this value for bigger text */
+  font-weight: bold;  /* Optional: makes text bold */
+  color: white;      /* Optional: change text color */
+  justify-content: center;
+  text-align: center;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.subtitle{
+  justify-content: center;
+  color: burlywood;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subtitles{
+  justify-content: center;
+  color: burlywood;
+  font-size: 1.5rem;
+  font-weight: bold; 
+  }
+
+  .img{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imga{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imgb{
+    width: 600px;
+    height: 400px;
+  }
+
+  .big-texts {
+  font-size: 3rem;    /* You can increase this value for bigger text */
+  font-weight: bold;  /* Optional: makes text bold */
+  color: white;      /* Optional: change text color */
+  justify-content: center;
+  text-align: center;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.imgc{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imgd{
+    width: 600px;
+    height: 400px;
+  }
+
+   .imge{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imgf{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imgg{
+    width: 600px;
+    height: 400px;
+  }
+
+  .video{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imgh{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imgi{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imgj{
+    width: 250px;
+    height: 400px;
+  } 
+  
+  .imgk{
+     width:  500px;
+    height: 500px;
+  }
+
+  .imgl{
+     width:  600px;
+    height: 400px;
+  }
+
+  .imgm{
+    width: 250px;
+    height: 400px;
+  }
+  
+  .imgn{
+    width: 600px;
+    height: 400px;
+  }
+
+  .imgo{
+    width: 550px;
+    height: 550px;
+  }
+
+    .imgp{
+    width: 550px;
+    height: 550px;
+  }
+
+  .imgq{
+    width: 550px;
+    height: 550px;
+  }
+
+  .imgr{
+    width: 550px;
+    height: 550px;
+  }
+
+    .imgt{
+    width: 550px;
+    height: 550px;
+  }
+
+  .videos{
+    width: 550px;
+    height: 550px;
+  }
+   .imgu{
+    width: 550px;
+    height: 700px;
+  }
+
+   .imgv{
+    width: 550px;
+    height: 700px;
+  }
+
+   .imgw{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgx{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgy{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgz{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgaa{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgab{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgac{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgad{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgae{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgaf{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgag{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgah{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgai{
+    width: 550px;
+    height: 700px;
+  }
+
+  .imgaj{
+    width: 550px;
+    height: 700px;
+  }
