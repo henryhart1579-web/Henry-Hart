@@ -331,3 +331,28 @@
     width: 550px;
     height: 700px;
   }
+
+  @media (max-width: 600px) {
+  .center-container, .center-containers {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .ul, .uls {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  img, video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .big-text, .big-texts {
+    font-size: 2rem;
+  }
+}
