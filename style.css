@@ -51,42 +51,24 @@
   min-height: 100vh;
   width: 100%;
 }
+   
 
-.ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 50px;
-  /* margin-top: 500px;  Remove or comment out this line */
-  color: white;
-  text-decoration: none;  
-  font-size: 1.2rem;
-  background-color: black; 
-  padding: 20px 40px;
-  border-radius: 12px;
-}
 
-.center-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-}/* ...existing code... */
 
-.bodys{
+.bodya{
       display: flex;
-  justify-content: center;   /* Center horizontally */      
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
   min-height: 100vh;         /* Full viewport height */
-   background-color : palevioletred;
+  background-color: palevioletred;
    background-size: cover;
    background-repeat: no-repeat;
-   background-position: center
+   background-position: center;
 }
 
-.uls{
+.ula{
     display: flex;
+   justify-content: center;
    list-style: none;
    gap: 50px;
    color: white;
@@ -94,265 +76,451 @@
    font-size: 1.2rem;
    background-color: black; 
    padding: 20px 40px;
-   border-radius: 1px;
+   border-radius: 12px;
 }
 
-.big-text {
+.audioa{
+    width: 350px;
+    margin: 30px auto 0 auto;
+    display: block;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    outline: none;
+    padding: 8px 0;
+}
+
+.big-texta {
   font-size: 3rem;    /* You can increase this value for bigger text */
   font-weight: bold;  /* Optional: makes text bold */
-  color: white;      /* Optional: change text color */
+  color: white;       /* Optional: change text color */
+  text-align: center; /* Optional: center the text */
   justify-content: center;
-  text-align: center;
 }
 
-.center-container {
+/* ...existing code... */
+
+.center-containera {
   display: flex;
   flex-direction: column;
-  justify-content:center ;
+  justify-content: center;
   min-height: 100vh;
   width: 100%;
 }
 
-.subtitle{
-  justify-content: center;
-  color: burlywood;
-  font-size: 1.5rem;
-  font-weight: bold;
+
+
+.bodyb{
+      display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  min-height: 100vh;         /* Full viewport height */
+   background-color: palevioletred;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
-.subtitles{
-  justify-content: center;
-  color: burlywood;
-  font-size: 1.5rem;
-  font-weight: bold; 
-  }
+.ulb{
+    display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 50px;
+   color: white;
+   text-decoration: none;  
+   font-size: 1.2rem;
+   background-color: black; 
+   padding: 20px 40px;
+   border-radius: 12px;
+}
 
-  .img{
-    width: 600px;
-    height: 400px;
-  }
+.audiob{
+    width: 350px;
+    margin: 30px auto 0 auto;
+    display: block;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    outline: none;
+    padding: 8px 0;
+}
 
-  .imga{
-    width: 600px;
-    height: 400px;
-  }
-
-  .imgb{
-    width: 600px;
-    height: 400px;
-  }
-
-  .big-texts {
+.big-textb {
   font-size: 3rem;    /* You can increase this value for bigger text */
   font-weight: bold;  /* Optional: makes text bold */
-  color: white;      /* Optional: change text color */
+  color: white;       /* Optional: change text color */
+  text-align: center; /* Optional: center the text */
   justify-content: center;
-  text-align: center;
 }
 
-.center-container {
+/* ...existing code... */
+
+.center-containerb {
   display: flex;
   flex-direction: column;
-  justify-content:center ;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.imgb{
+  width: 600px;
+  height: 400px;
+}
+
+.imgba{
+  width: 600px;
+  height: 400px;
+}
+
+.imgbb{
+  width: 600px;
+  height: 400px;
+}
+
+.imgbc{
+    width: 600px;
+  height: 400px;
+}
+
+.imgbd{
+    width: 600px;
+  height: 400px;
+}
+
+.imgbe{
+    width: 600px;
+  height: 400px;
+}
+
+.imgbf{
+    width: 600px;
+  height: 400px;
+}
+
+.imgbg{
+    width: 600px;
+  height: 400px;
+}
+
+.imgbh{
+   width: 600px;
+  height: 400px;
+}
+
+.videob{
+   width: 600px;
+  height: 400px;
+}
+
+.imgbi{
+   width: 600px;
+  height: 600px;
+}
+
+.imgbj{
+   width: 600px;
+  height: 400px;
+}
+
+.imgbk{
+   width: 600px;
+  height: 400px;
+}
+
+.imgbl{
+   width: 400px;
+  height: 400px;
+}
+
+.imgbm{
+   width: 300px;
+  height: 400px;
+}
+
+.imgbn{
+   width: 600px;
+  height: 400px;
+}
+
+.imgbo{
+    width: 600px;
+  height: 400px;
+}
+
+.imgbp{
+    width: 500px;
+  height: 400px;
+}
+
+
+
+
+.bodyc{
+      display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  min-height: 100vh;         /* Full viewport height */
+   background-color: palevioletred;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.ulc{
+    display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 50px;
+   color: white;
+   text-decoration: none;  
+   font-size: 1.2rem;
+   background-color: black; 
+   padding: 20px 40px;
+   border-radius: 12px;
+}
+
+.audioc{
+    width: 350px;
+    margin: 30px auto 0 auto;
+    display: block;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    outline: none;
+    padding: 8px 0;
+}
+
+.big-textc {
+  font-size: 3rem;    /* You can increase this value for bigger text */
+  font-weight: bold;  /* Optional: makes text bold */
+  color: white;       /* Optional: change text color */
+  text-align: center; /* Optional: center the text */
+  justify-content: center;
+}
+
+/* ...existing code... */
+
+.center-containerc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
   width: 100%;
 }
 
 .imgc{
-    width: 600px;
-    height: 400px;
-  }
-
-  .imgd{
-    width: 600px;
-    height: 400px;
-  }
-
-   .imge{
-    width: 600px;
-    height: 400px;
-  }
-
-  .imgf{
-    width: 600px;
-    height: 400px;
-  }
-
-  .imgg{
-    width: 600px;
-    height: 400px;
-  }
-
-  .video{
-    width: 600px;
-    height: 400px;
-  }
-
-  .imgh{
-    width: 600px;
-    height: 400px;
-  }
-
-  .imgi{
-    width: 600px;
-    height: 400px;
-  }
-
-  .imgj{
-    width: 250px;
-    height: 400px;
-  } 
-  
-  .imgk{
-     width:  500px;
-    height: 500px;
-  }
-
-  .imgl{
-     width:  600px;
-    height: 400px;
-  }
-
-  .imgm{
-    width: 250px;
-    height: 400px;
-  }
-  
-  .imgn{
-    width: 600px;
-    height: 400px;
-  }
-
-  .imgo{
-    width: 550px;
-    height: 550px;
-  }
-
-    .imgp{
-    width: 550px;
-    height: 550px;
-  }
-
-  .imgq{
-    width: 550px;
-    height: 550px;
-  }
-
-  .imgr{
-    width: 550px;
-    height: 550px;
-  }
-
-    .imgt{
-    width: 550px;
-    height: 550px;
-  }
-
-  .videos{
-    width: 550px;
-    height: 550px;
-  }
-   .imgu{
-    width: 550px;
-    height: 700px;
-  }
-
-   .imgv{
-    width: 550px;
-    height: 700px;
-  }
-
-   .imgw{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgx{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgy{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgz{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgaa{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgab{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgac{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgad{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgae{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgaf{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgag{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgah{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgai{
-    width: 550px;
-    height: 700px;
-  }
-
-  .imgaj{
-    width: 550px;
-    height: 700px;
-  }
-
-  @media (max-width: 600px) {
-  .center-container, .center-containers {
-    padding: 10px;
-    width: 100%;
-  }
-
-  .ul, .uls {
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    font-size: 1rem;
-  }
-
-  img, video {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    border-radius: 8px;
-  }
-
-  .big-text, .big-texts {
-    font-size: 2rem;
-  }
+     width: 500px;
+  height: 500px;
 }
+
+.imgca{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcb{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcc{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcd{
+     width: 400px;
+  height: 400px;  
+}
+
+.imgce{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcf{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcg{
+     width: 400px;
+  height: 400px;
+}
+
+.imgch{
+     width: 400px;
+  height: 400px;
+}
+
+.imgci{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcj{
+     width: 400px;
+  height: 400px;
+}
+
+.imgck{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcl{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcm{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcn{
+     width: 400px;
+  height: 400px;
+}
+
+.imgco{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcp{
+     width: 400px;
+  height: 400px;
+}
+
+.imgcq{
+       width: 400px;
+  height: 400px;
+}
+
+.imgcr{
+       width: 400px;
+  height: 400px;
+}
+
+.imgcs{
+       width: 400px;
+  height: 400px;
+}
+
+
+
+
+.bodyd{
+      display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  min-height: 100vh;         /* Full viewport height */
+   background-image: url(Screenshot_21-8-2025_82845_127.0.0.1.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.uld{
+    display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 50px;
+   color: white;
+   text-decoration: none;  
+   font-size: 1.2rem;
+   background-color: black; 
+   padding: 20px 40px;
+   border-radius: 12px;
+}
+
+.audiod{
+    width: 350px;
+    margin: 30px auto 0 auto;
+    display: block;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    outline: none;
+    padding: 8px 0;
+}
+
+.big-textd {
+  font-size: 3rem;    /* You can increase this value for bigger text */
+  font-weight: bold;  /* Optional: makes text bold */
+  color: white;       /* Optional: change text color */
+  text-align: center; /* Optional: center the text */
+  justify-content: center;
+}
+
+/* ...existing code... */
+
+.center-containerd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+
+.bodye{
+      display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  min-height: 100vh;         /* Full viewport height */
+   background-image: url(Screenshot_21-8-2025_82845_127.0.0.1.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.ule{
+    display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 50px;
+   color: white;
+   text-decoration: none;  
+   font-size: 1.2rem;
+   background-color: black; 
+   padding: 20px 40px;
+   border-radius: 12px;
+}
+
+.audioe{
+    width: 350px;
+    margin: 30px auto 0 auto;
+    display: block;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    outline: none;
+    padding: 8px 0;
+}
+
+.big-texte {
+  font-size: 3rem;    /* You can increase this value for bigger text */
+  font-weight: bold;  /* Optional: makes text bold */
+  color: white;       /* Optional: change text color */
+  text-align: center; /* Optional: center the text */
+  justify-content: center;
+}
+
+/* ...existing code... */
+
+.center-containere {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
